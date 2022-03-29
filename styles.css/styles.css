@@ -1,10 +1,10 @@
 /* global */
 *{box-sizing: border-box;}
 
-.html {
+html {
     height: 100%;
 }
-.body{
+body {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -12,24 +12,203 @@
     padding: 0;
     font-size: 16px;
     line-height: 22px;
-    font-family: "rubik" "rubik mono one" "sans-serif";
+    font-family: "inter" "arial" "sans-serif";
     color:#4a4b4c;
-    background-color:#eee;
     flex-wrap: nowrap;
+    background-color: #e7e7e7;
 }
-.img{
+img{
     height:auto;
     max-width: 100%;   
 }
 *:focus{
-    outline: 3px dashed skyblue;
+    outline: 3px dashed aqua;
     outline-offset: 3px;
 }
 .container{
-    max-width: 1260px;
+    max-width: 1200px;
     width: 100%;
     padding-left: 30px;
     padding-right: 30px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.wrapper {
+    display: flex;
+    margin-top: 30px;
+}
+.left-side {
+    display: flex;
+    flex-direction: column;
+    width: 570px;
+    
+}
+.main-content-wrapper {
+    padding: 60px 120px 203px 60px;
+    background-image: url(../img/main.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:fixed;
+    background-position: ;
+}
+.puzzle{
+    width: 178px;
+    height: 27px;
+border: 1px solid #ddd;
+border-radius: 41px;
+width: 178px;
+    height: 27px;
+font-family: 'Inter' 'arial' "sans-serif";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+margin-bottom: 65px;
+opacity: 0.8;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0;
+padding: 0;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+opacity: 0.8;
+margin-bottom: 65px;
+} 
+.left-side-theme{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 25px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 46px;
+color: #FFFFFF;
+width: 389px;
+}
+.left-side-content {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+width: 343px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4DC490;
+    border-radius: 0px 0px 20px 20px;
+    height: 80px;
+}
+.footer-link {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.free-trial {
+ 
+}
+.free-trial-link{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.right-side {
+margin-left: 12px;
+padding-left: 60px;
+padding-right: 60px;
+padding-top: 55px;
+background-repeat: 20px;
+background-color: #fff;
+border-radius:20px;
+width: 570px;
+}
+.right-side-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.right-side-theme {
+    margin: 0;
+    padding: 0;
+    width: 428px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 42px;
+color: #000000;
+padding-bottom: 65px;
+}
+.form-information {
+    display: flex;
+    flex-direction: column;
+}
+.information {
+    border:none;
+    border-bottom: 1px solid #000;
+    padding-top: 35px;
+    padding-bottom: 14px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #555555;
+}
+.information:focus{
+    outline: none;
+}
+.right-side-free-trial-link{
+    margin: 0;
+    padding: 0;
+padding: 20px 140px;
+background-color:#655AF2;
+margin-top: 63px;
+text-decoration: none;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+border-radius: 10px;
+margin-top: 63px;
+}
+.right-side-free-trial-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    color: #555555;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.link-services {
+    text-decoration: none;
+    color:red;
 }
